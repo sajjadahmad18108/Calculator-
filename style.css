@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maincontainer{
+    
+     width: 400px;
+     height: 400px;
+     /* background-color: aqua; */
+     margin: 100px auto;
+     border: 1px solid black;
+     padding: 12px;
+     border-radius: 5px;
+     box-shadow: 0 0 10px  gray;
+     background-color: gray;
+}
+input[type="text"]{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 4px 0;
+    font-size: 20px;
+}
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+button.same{
+    padding: 10px;
+    font-size: 1.3rem;
+}
+button.black{
+    color: white;
+    background-color: black;
+}
+button.red{
+    color: white;
+    background-color: red;
+}
+button:hover{
+    box-shadow: 5px 5px 5px gray;
+}
